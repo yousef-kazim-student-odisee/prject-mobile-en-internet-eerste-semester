@@ -1,0 +1,468 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+}
+
+header {
+    width: 100%;
+    height: 550px;
+   background-image: url(../img/headerframe.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #161616;
+}
+nav{
+	
+	background-color: #161616;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 18px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    text-decoration: none;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+main {
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+h2{
+    margin-bottom: 5%;
+	color: #000000;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+#about{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+        margin-left: 3%;
+    
+}
+.aboutMe{
+	font-size: 1.4em;
+	width: 33%;
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 0;
+	margin-right: 23%;
+}
+
+#work{
+    margin-top: 15%;
+    width: 90%;
+	margin-left: -5%;
+        
+}
+
+
+
+
+#workspage{
+    margin-top: 15%;
+	margin-left: -5%;
+    width: 90%;
+        
+}
+
+.gallaryMain{
+    width: 225px;
+    height: 225px;
+	margin: 3% 2% 2% 0;}
+
+
+#contact1{
+    width: 60%;
+        margin-left: 3%;
+   
+}
+
+
+
+/* social medida */
+
+#social{
+    width: 60%;
+    margin-top: 5%;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7% 8%;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.1;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.textarino{
+	margin: 5% 6%;
+	width: 100%;
+	font-size: 3.5em;
+}
+
+
+
+/*****************  Works page ***********/
+
+#works{
+    width: 90%;
+    
+}
+
+
+#works h2{
+    margin-top: 10%;
+    
+}
+
+
+#workspage{
+width: 70%; 
+margin-top:15%;
+}
+.works{
+	margin-top: 4%;
+	font-size: 1.3em;
+	width: 80%;
+	margin-bottom: 10%;
+}
+#screentosmall{
+		display: none;
+	}
+
+
+/*****************  Contact form  ***********/
+
+
+
+
+#contact {
+	background:#ffffff;
+	padding:25px;
+	margin:50px 0;
+}
+
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 85%;
+	padding: 0;
+	width: 85%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:85%;
+	border:1px solid #CCC;
+	background-color: #ffffff;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
+	transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:85%;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:20%;
+	background:#fff;
+	color:#000;
+	border-color: #000;
+	border: solid;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#000;
+	color:#fff;
+	transition:background 0.3s ease-in-out;
+	transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+
+
+/*****************  Media Querys  ***********/
+
+
+
+@media (max-width:1200px) and (min-width:950px){
+	
+	header{
+		display: none;
+	}
+	#nadiaabout{
+		width: 350px;
+		height: 400px;
+	}
+	.aboutMe{
+		font-size: 1.1em;
+		margin-right: 25%;
+	}
+	#social{
+    width: 80%;
+    margin-top: 5%;
+
+}
+	#screentosmall{
+		display: none;
+	}
+}
+
+
+@media (max-width:949px) and (min-width:516px){
+	
+	
+	
+	header{
+		display: none;
+	}
+	nav ul li {
+    display: inline-block;
+    text-align: center;
+	width: 100%;
+}
+	nav ul li a {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    text-decoration: none;
+    display: block;
+
+}
+
+#workpage{
+	width: 57%;
+	margin: 5%;
+}
+
+	#workspage img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	#nadiaabout{
+	clear: right;
+	float: left;
+	width: 497px;
+	height: 679px;
+	margin-left: 11%;
+	}
+	.aboutMe{
+	font-size: 1.1em;
+	width: 70%;
+	float: right;
+	margin-top: 8%;
+	margin-bottom: 0;
+	clear: left;
+		
+	}
+	
+	h2{
+		text-align: center;
+		margin-right: 5%;
+	}
+	#work{
+		width: 100%;
+		margin: 90% 2% 0 14%;
+		clear: none;
+		float: none;
+		
+		
+	}
+	#work h2{
+		width: 40%;
+			text-align: center;
+		margin-right: 29%;
+	}
+	#contact1{
+    width: 90%;
+        margin-left: 14%;
+   
+}
+
+
+	#contact1 h2{
+		width: 40%;
+		margin-top: 5%;
+		margin-left: 18%;
+	}
+		#social{
+    width: 80%;
+    margin-top: 5%;
+
+}
+	#screentosmall{
+		display: none;
+	}
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7% 6%;
+  border-radius: 50%;
+}
+}
+
+@media (max-width:516px){
+		header{
+		display: none;
+	}
+	nav ul li {
+    display: inline-block;
+    text-align: center;
+	width: 100%;
+}
+	nav ul li a {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    text-decoration: none;
+    display: block;
+
+}
+
+#workpage{
+	width: 57%;
+	margin: 5%;
+}
+
+	#workspage img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	#nadiaabout{
+		display: none;
+	}
+	.aboutMe{
+	font-size: 0.7em;
+	width: 70%;
+	float: none;
+	margin: 25% 0 0 11%;
+	clear: none;
+	text-align: left;
+	}
+	
+	h2{
+		text-align: center;
+		margin-right: 5%;
+	}
+	#work{
+		width: 50%;
+		margin: 50% 40% 0 auto;
+		clear: none;
+		float: none;
+		
+		
+	}
+	#work h2{
+		width: 40%;
+			text-align: center;
+		margin-right: 29%;
+	}
+	#contact1{
+    width: 90%;
+        margin-left: 14%;
+   
+}
+
+
+	#contact1 h2{
+		width: 40%;
+		margin-top: 5%;
+		margin-left: 18%;
+	}
+		#social{
+    width: 80%;
+    margin-top: 5%;
+
+}
+	#screentosmall{
+		display: none;
+	}
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7% 6%;
+  border-radius: 50%;
+}
+	
+	#social a{
+		width: 20px;
+		height: 20px;
+		margin: 85px;
+	}
+	 
+}
